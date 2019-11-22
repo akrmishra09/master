@@ -1,0 +1,51 @@
+#rid-leaderboard li.menu__item {
+    display: inline-block;
+    padding-right: 20px;
+	position: relative;
+}
+.pinpic_noti{
+	display: none;
+}
+#rid-leaderboard li.menu__item.menu__item-title--messages .pinpic_noti{
+	display: inline-block;
+    position: absolute;
+    top: -14px;
+    right: 0;
+    background: #ff0000;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+}
+div#block-views-block-menu-badge-block-1-2 {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    padding: 10px 15px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.56);
+    top: 52px;
+    left: 150px;
+    max-height: 280px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 250px;
+	display: none;
+}
+div#block-views-block-menu-badge-block-1-2 #collapsiblock-wrapper-views_block__menu_badge_block_1_2{
+	display: none;
+}
+div#block-views-block-menu-badge-block-1-2 .view-menu-badge .views-row{
+	padding: 5px 0;
+	border-bottom: 1px solid #000;
+}
+div#block-views-block-menu-badge-block-1-2 .view-menu-badge .views-row a{
+	color: #000;
+}
+#rid-leaderboard li#menu-name--account__messages.menu__item{
+	display: none;
+}
+.user-logged-in #rid-leaderboard li#menu-name--account__messages.menu__item{
+	display: inline-block;
+}

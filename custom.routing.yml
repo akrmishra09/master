@@ -1,0 +1,24 @@
+# Ruting file for the Lotus module in Drupal 8. 
+# Add this to the root of the module folder, 
+# e.g. modules/custom/custom.routing.yml
+
+custom.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\custom\Controller\HelloController::content'
+    _title: 'Hello Drupal!'
+  requirements:
+    _permission: 'access content'
+custom.test:
+  path: '/test/{mid}'
+  defaults:
+    _controller: 'Drupal\custom\Controller\HelloController::test'
+  requirements:
+    _permission: 'access content'
+custom.offers_controller_hello:
+  path: '/offers/holi/{count}'
+  defaults:
+    _controller: '\Drupal\custom\Controller\OffersController::hello'
+    _title: 'Offers'
+  requirements:
+     _permission: 'access content'
